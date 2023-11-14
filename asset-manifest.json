@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/onleague/static/css/main.5e91becb.css",
-    "main.js": "/onleague/static/js/main.e2d9e812.js",
+    "main.js": "/onleague/static/js/main.c089a9c9.js",
     "index.html": "/onleague/index.html",
     "main.5e91becb.css.map": "/onleague/static/css/main.5e91becb.css.map",
-    "main.e2d9e812.js.map": "/onleague/static/js/main.e2d9e812.js.map"
+    "main.c089a9c9.js.map": "/onleague/static/js/main.c089a9c9.js.map"
   },
   "entrypoints": [
     "static/css/main.5e91becb.css",
-    "static/js/main.e2d9e812.js"
+    "static/js/main.c089a9c9.js"
   ]
 }
