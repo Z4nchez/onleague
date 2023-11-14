@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/onleague/static/css/main.5e91becb.css",
+    "main.js": "/onleague/static/js/main.91514fbb.js",
+    "index.html": "/onleague/index.html",
+    "main.5e91becb.css.map": "/onleague/static/css/main.5e91becb.css.map",
+    "main.91514fbb.js.map": "/onleague/static/js/main.91514fbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e91becb.css",
+    "static/js/main.91514fbb.js"
+  ]
+}
