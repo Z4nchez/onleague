@@ -1,0 +1,67 @@
+.playerItemCont{
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid var(--colourLine);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playerIconCont{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playerIconCont img{
+    width: 20px;
+    height: 12px;
+    background-size: cover;
+}
+.playerNameCont{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.playerName{
+    width: 100px;
+    height: 20px;
+    font-size: 0.9rem;
+    color: var(--colourLine);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.removePlayerCont{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.removePlayer{
+    width: 60px;
+    height: 18px;
+    color: var(--colourLine);
+    border: 1px solid var(--colourLine);
+    border-radius: 8px;
+    background-color: var(--colourBright);
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.removePlayer:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (width < 800px) {
+    .playerName{
+        font-size: 0.6rem;
+    }
+    .removePlayer{
+        font-size: 0.6rem;
+    }
+}

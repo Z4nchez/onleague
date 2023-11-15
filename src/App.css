@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+.footer{
+  position: absolute;
+  width: 100%;
+  height: 3vh;
+  top: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.wLink{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--colourLine);
+  cursor: pointer;
+  text-decoration: none;
+}
+.wLink:hover{
+  text-shadow: 0 0 1px white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+:root{
+  --colourLine: rgba(71, 17, 0, 0.5);
+  --colourBright: rgba(255, 255, 255, 0.08);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.my-node-enter {
+  opacity: 0;
+}
+.my-node-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}

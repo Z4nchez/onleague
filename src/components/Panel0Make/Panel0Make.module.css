@@ -1,0 +1,11 @@
+.panel0Make{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid var(--colourLine);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

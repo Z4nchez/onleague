@@ -1,0 +1,207 @@
+.tourney{
+    width: 90%;
+    height: 90%;
+    background-color: var(--colourBright);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tourneyCont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: auto;
+    column-gap: 10px;
+}
+.titleCont{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--colourLine);
+    border-radius: 6px 6px 0 0;
+}
+.title{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(24, 0, 0);
+    font-size: 1.2rem;
+}
+.close{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closeButton{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: var(--colourBright);
+    border: 1px solid var(--colourLine);
+    cursor: pointer;
+}
+.closeButton:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.round{
+    height: 90%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.match{
+    border: 1px solid var(--colourLine);
+    background-color: var(--colourBright);
+    height: 60px;
+    width: 160px;
+}
+.linkCont{
+    width: 100%;
+    height: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colourLine);
+    border-radius: 0 0 6px 6px;
+    gap: 5px;
+}
+.titleLink{
+    color: rgb(24, 0, 0);
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    font-size: 0.8rem;
+    color: rgb(12, 0, 122);
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panelCont{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.dataCont{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+.dataPanel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colourBright);
+    border-right: 1px solid rgba(71, 17, 0, 0.2);;
+}
+.dataTitle{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--colourLine);
+}
+.dataInfo{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--colourLine);
+}
+.dataText{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+}
+.dataWinner{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (width < 1024px) {
+    .dataCont{
+        width: 1%;
+        visibility: hidden;
+    }
+    .tourneyCont{
+        justify-content: flex-start;
+    }
+}
+@media screen and (width < 800px) {
+    .linkCont{
+        height: 5%;
+        flex-direction: column;
+        font-size: 0.6rem;
+        gap: 0;
+    }
+    .titleLink{
+        height: 50%;
+    }
+    .link{
+        height: 50%;
+    }
+    .panelCont{
+        height: 90%;
+    }
+    .closeButton{
+        font-size: 0.6rem;
+    }
+    .title h2{
+        font-size: 1rem;
+    }
+}
+@media screen and (width < 500px) {
+    .link{
+        font-size: 0.6rem;
+    }
+}
